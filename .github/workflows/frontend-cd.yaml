@@ -75,7 +75,7 @@ jobs:
       - test
 
     env:
-      REACT_APP_MOVIE_API_URL: http://localhost:5000
+      REACT_APP_MOVIE_API_URL: http://a72f60bba9c634c9998866c31cde0a83-1268922865.us-east-1.elb.amazonaws.com
       IMAGE_TAG: ${{ github.sha }}
 
     steps:
